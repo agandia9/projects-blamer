@@ -13,7 +13,7 @@ WEBHOOK_URL=<%SLACK_WEBHOOK_URL%>
 ```
 
 - **PROMOTION** → A value indicating the promotion to select the proper json in `data/projects` (Ex: 2016-02, 2017-04, ...)
-- **WEBHOOK_URL** → A WebHook URL that can be got from https://<%SLACK-CHANNEL%>.slack.com/apps/manage/custom-integrations
+- **WEBHOOK_URL** → A WebHook URL that can be got from `https://<%SLACK-CHANNEL%>.slack.com/apps/manage/custom-integrations`
 
 ## Data model
 
