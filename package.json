@@ -1,0 +1,21 @@
+{
+  "name": "bot-repos-projects",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "notify": "node notify"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@slack/client": "^3.8.1",
+    "del": "^2.2.2",
+    "dotenv": "^4.0.0",
+    "feed-read-parser": "0.0.6",
+    "iconv-lite": "^0.4.15",
+    "lodash": "^4.17.4",
+    "moment": "^2.17.1"
+  }
+}
