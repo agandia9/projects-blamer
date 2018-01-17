@@ -15,7 +15,7 @@ getInfoRepos().then( infoRepos => {
     const msgDefaults = {
       text: `Today, status of projects is... `,
       responseType: 'in_channel',
-      username: 'SkyProjectsBlamer',
+      username: 'ProjectsBlamer',
       iconEmoji: ICON_EMOJI
     }
 
@@ -31,7 +31,7 @@ getInfoRepos().then( infoRepos => {
 
     webhook.send(msg, (err, res) => {
       if (err) throw err
-      console.log(`\n🚀  SkyProjectsBlamer report delivered 🚀`)
+      console.log(`\n🚀  ProjectsBlamer report delivered 🚀`)
     })
   })
   .catch( function(err) {
